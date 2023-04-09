@@ -1,0 +1,16 @@
+
+cli.default.request_type=film
+cli.default.output_format=xml
+cli.default.output_path=output
+
+film_data.database.driver=mysql
+film_data.database.host=localhost
+film_data.database.port=3306
+film_data.database.user=root
+film_data.database.password=
+film_data.database.name=ied_film_data
+# To append to url if needed
+film_data.database.optional_url_params=
+
+film_summary.api_key=62cb014b
+film_summary.base_url=http://www.omdbapi.com/
